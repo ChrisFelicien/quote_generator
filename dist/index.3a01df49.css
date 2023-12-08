@@ -1,0 +1,97 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Rubik:wght@400;500;600;700&display=swap";
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cbcbcb86;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  display: flex;
+}
+
+.quote-container {
+  background-color: #ffffff80;
+  border-radius: 10px;
+  width: auto;
+  max-width: 900px;
+  padding: 20px 30px;
+  font-weight: 700;
+  box-shadow: 0 10px 10px 10px #00000015;
+}
+
+.quote-text {
+  text-align: center;
+  color: #171717be;
+  margin-bottom: 1.5rem;
+  font-size: 2.3rem;
+}
+
+.long-quote {
+  font-size: 2rem;
+}
+
+.fa-quote-left {
+  font-size: 4rem;
+}
+
+.quote-author {
+  text-align: center;
+  color: #141313be;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.button-container {
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  display: flex;
+}
+
+button {
+  cursor: pointer;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  transition: all .1s;
+  box-shadow: 0 .3rem #79797980;
+}
+
+button:hover {
+  background-color: #000000d4;
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(.3rem);
+}
+
+.fa-circle-notch {
+  color: #7c7c7c8b (60, 60, 60);
+  font-size: 5rem;
+  animation-name: loader;
+  animation-duration: .4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes loader {
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
